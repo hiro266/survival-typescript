@@ -1,0 +1,7 @@
+// コンパイラ設定ファイル
+{
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
