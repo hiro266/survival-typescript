@@ -115,12 +115,7 @@ const LikeButton = () => {
 - UI テストのためのライブラリ群
 - コンポーネントの表示や挙動確認
 
-## npx コマンド
-
-- Node モジュール(ライブラリ)の実行ファイルを起動するツール
-- npx eslint を実行すると、./node_modules/.bin/eslint が実行
-
-### ルール
+#### ルール
 
 - 200 を超えるルール
 - チェックの最小単位
@@ -128,7 +123,7 @@ const LikeButton = () => {
   - camelcase: 変数名はキャメルケースにすること
   - etc...
 
-#### 重大度(severity)
+##### 重大度(severity)
 
 - ルールに設定
   - off
@@ -137,3 +132,8 @@ const LikeButton = () => {
     - 警告として報告、eslint コマンドの終了コードには影響なし
   - error
     - エラーとして報告、終了コードを 1 にする
+
+## npx コマンド
+
+- Node モジュール(ライブラリ)の実行ファイルを起動するツール
+- npx eslint を実行すると、./node_modules/.bin/eslint が実行
